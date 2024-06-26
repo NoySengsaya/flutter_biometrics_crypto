@@ -28,6 +28,9 @@ android {
         minSdkVersion 23
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
+
+    namespace 'com.travelunion.flutter_biometrics'
+
     lintOptions {
         disable 'InvalidPackage'
     }
